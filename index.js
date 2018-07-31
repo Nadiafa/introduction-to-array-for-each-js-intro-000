@@ -7,18 +7,9 @@ function doToElementsInArray(array, callback) {
 // Add your changeCompletely() function here:
 
 function changeCompletely(element, index, array) {
-  
+  array[index] = Math.floor(Math.random() * 100 + 2).toString() + ` ${array[index]}s!!!`;
 }
 
-
-
-// 1) index.js doToElementsInArray() is defined:
-//   ReferenceError: doToElementsInArray is not defined
-//     at Context.it (test/index-test.js:18:14)
-
-// 2) index.js doToElementsInArray() invokes the passed-in callback function on every element of the passed-in array using Array.prototype.forEach():
-//   ReferenceError: doToElementsInArray is not defined
-//     at Context.it (test/index-test.js:29:7)
 
 // 3) index.js changeCompletely() is defined:
 //   ReferenceError: changeCompletely is not defined
