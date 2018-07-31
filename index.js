@@ -6,6 +6,9 @@ function doToElementsInArray(array, callback) {
 
 // Add your changeCompletely() function here:
 
+changeCompletely() {
+  
+}
 
 
 
